@@ -12,8 +12,16 @@
 #import "Dog.h"
 @implementation Animal
 
++(void)load {
+    
+}
+
 void eatStone(){
     NSLog(@"吃骨头");
+}
+
+- (void)testBig {
+    NSLog(@"父类大");
 }
 
 +(BOOL)resolveInstanceMethod:(SEL)sel{
